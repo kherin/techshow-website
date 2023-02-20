@@ -1,0 +1,25 @@
+{
+  "title": "TechShow Podcast",
+  "routes": [
+    {
+      "name": "home",
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "name": "episodes",
+      "label": "Episodes",
+      "path": "/episodes"
+    },
+    {
+      "name": "guests",
+      "label": "Guests",
+      "path": "/guests"
+    },
+    {
+      "name": "contact",
+      "label": "Contact",
+      "path": "/contact"
+    }
+  ]
+}

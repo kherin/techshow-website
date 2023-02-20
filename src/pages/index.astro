@@ -1,5 +1,19 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Config from "../../config.json";
+import NavBar from "../layouts/NavBar.astro";
 ---
 
-<Layout title="Welcome to the TechShow Podcast Website." />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{Config.title}</title>
+  </head>
+  <header>
+    <NavBar />
+  </header>
+  <body></body>
+
+</html>
