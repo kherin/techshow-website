@@ -20,6 +20,11 @@
       "name": "contact",
       "label": "Contact",
       "path": "/contact"
+    },
+    {
+      "name": "sandbox",
+      "label": "Sandbox",
+      "path": "/sandbox"
     }
   ]
 }
